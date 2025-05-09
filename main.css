@@ -2153,14 +2153,14 @@ input, select, textarea {
 				        display: flex;
 				        justify-content: center;
 				        align-items: center;
-				        margin: 0 auto; /* Centra el contenedor sin modificar el padre */
-				        width: fit-content; /* Evita que ocupe todo el ancho */
+				        height: 100vh; /* Asegura que ocupe toda la altura de la pantalla */
 				    }
 				
 				    .image.avatar img {
 				        width: 100px;
 				        height: 100px;
 				        display: block;
+				        margin: auto; /* Centra completamente la imagen */
 				    }
 				}
 /* List */
