@@ -2153,17 +2153,16 @@ input, select, textarea {
 				        display: flex;
 				        justify-content: center;
 				        align-items: center;
-				        width: 100%; /* Asegura que ocupe todo el ancho disponible */
-				        margin-top: 20px; /* Espaciado adicional */
+				        margin: 0 auto; /* Centra el contenedor sin modificar el padre */
+				        width: fit-content; /* Evita que ocupe todo el ancho */
 				    }
 				
 				    .image.avatar img {
-				        width: 100px; /* Tamaño más pequeño en móviles */
+				        width: 100px;
 				        height: 100px;
-				        display: block; /* Asegura que la imagen no tenga márgenes inesperados */
-				        margin: 0 auto; /* Centra la imagen dentro del contenedor */
+				        display: block;
 				    }
-				}	
+				}
 /* List */
 
 	ol {
