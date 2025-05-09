@@ -2138,13 +2138,13 @@ input, select, textarea {
 		}
 
 			.image.avatar:before {
-				display: none;
+				display: flex;
 			}
 
 			.image.avatar img {
 				border-radius: 100%;
-				width: 250%;
-				margin-left: -200px;
+				width: 200%;
+				margin-left: -100px;
 				margin-top:-100px;
 			}
 
