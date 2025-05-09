@@ -20,15 +20,15 @@
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                max-width: 900px;
+                max-width: 1000px;
                 margin: auto;
                 padding: 20px;
             }
 
             /* Avatar */
             .image.avatar img {
-                width: 150px;
-                height: 150px;
+                width: 180px;
+                height: 180px;
                 border-radius: 50%;
                 display: block;
                 margin: auto;
@@ -38,15 +38,15 @@
             .actions {
                 display: flex;
                 justify-content: center;
-                gap: 10px;
+                gap: 15px;
                 flex-wrap: wrap;
             }
 
             .actions a {
                 background-color: #0077c2;
                 color: white;
-                padding: 10px 15px;
-                border-radius: 5px;
+                padding: 12px 18px;
+                border-radius: 6px;
                 text-decoration: none;
                 font-weight: bold;
             }
@@ -60,31 +60,47 @@
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                max-width: 400px;
+                max-width: 500px;
                 margin: auto;
-                padding: 10px;
+                padding: 15px;
+            }
+
+            /* Imágenes responsivas */
+            .image.fit.thumb img {
+                width: 100%;
+                max-width: 400px;
+                height: auto;
+                border-radius: 8px;
             }
 
             /* Media Queries para dispositivos móviles */
-            @media (max-width: 600px) {
+            @media (max-width: 768px) {
                 .image.avatar img {
-                    width: 120px;
-                    height: 120px;
+                    width: 140px;
+                    height: 140px;
                 }
 
                 h1 {
-                    font-size: 22px;
+                    font-size: 24px;
                 }
 
                 p {
                     font-size: 16px;
                     text-align: center;
-                    padding: 10px;
+                    padding: 15px;
                 }
 
                 .actions {
                     flex-direction: column;
                     align-items: center;
+                }
+
+                .image.fit.thumb img {
+                    max-width: 100%;
+                }
+
+                #main {
+                    padding: 15px;
                 }
             }
         </style>
@@ -124,7 +140,7 @@
                 <header class="major">
                     <h2>Desarrollador FullStack</h2>
                 </header>
-                <p style="text-align:justify">Como desarrollador full stack, tengo experiencia en Python, HTML,
+               <p style="text-align:justify">Como desarrollador full stack, tengo experiencia en Python, HTML,
 							CSS y JavaScript, lo que me permite construir aplicaciones completas,
 							dinámicas y eficientes. Me especializo en crear soluciones escalables con backend robusto y frontend atractivo.
 							Mi conocimiento en Flask y automatización web me ayuda a optimizar procesos y desarrollar productos digitales
@@ -191,4 +207,3 @@
         <script src="main.js"></script>
     </body>
 </html>
-
