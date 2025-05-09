@@ -2158,8 +2158,8 @@ input, select, textarea {
     }
 
     .image.avatar img {
-        width: 150px; /* Tamaño más pequeño en móviles */
-        height: 150px;
+        width: 100px; /* Tamaño más pequeño en móviles */
+        height: 100px;
     }
 }
 
