@@ -36,9 +36,9 @@
 							cumpliendo con los plazos, el presupuesto y los estándares de calidad requeridos en cada proyecto con una visión
 							holística para poder identificar y gestionar tendencias y riesgos, convirtiéndolos en oportunidades que agregan
 							valor al negocio. </p>
-						<div id="jsonContent"></div>
+						
 						<ul class="actions">
-							<li><a href="exp_luis.json" class="button">Learn More</a></li>
+							<li><a href="luis_exp.html" class="button">Learn More</a></li>
 						</ul>
 
 
@@ -54,10 +54,8 @@
 							garantizo código limpio, funcional y bien estructurado. Si buscas alguien capaz de convertir ideas en aplicaciones
 							efectivas y bien diseñadas, puedo aportar experiencia y creatividad para hacer realidad tu proyecto.
  						</p>
-
-						<div id="jsonContent"></div>
 						<ul class="actions">
-							<li><a href="{{url_for('luis_exp')}}" class="button">Learn More</a></li>
+							<li><a href="luis_exp.html" class="button">Learn More</a></li>
 						</ul>
 					</section>
 
@@ -163,17 +161,6 @@
 			<script src="breakpoints.min.js"></script>
 			<script src="util.js"></script>
 			<script src="main.js"></script>
-
-			<script>
-	            	fetch('exp_luis.json')
-	                	.then(response => response.json())
-	                	.then(data => {
-	                   		 let content = document.getElementById('jsonContent');
-	                    	content.innerHTML = `
-	                        	<h2>${data.title}</h2>
-	                       		<p>${data.body}</p>
-	                    `;
-	                })
 
 	</body>
 </html>
