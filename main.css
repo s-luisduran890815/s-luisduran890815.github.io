@@ -2149,20 +2149,21 @@ input, select, textarea {
 			}
 
 			@media (max-width: 600px) {
-    .image.avatar {
-        display: flex;
-        justify-content: right;
-        align-items: center;
-        flex-direction: column;
-        margin-top: 20px; /* Espaciado adicional */
-    }
-
-    .image.avatar img {
-        width: 100px; /* Tamaño más pequeño en móviles */
-        height: 100px;
-    }
-}
-
+				    .image.avatar {
+				        display: flex;
+				        justify-content: center;
+				        align-items: center;
+				        width: 100%; /* Asegura que ocupe todo el ancho disponible */
+				        margin-top: 20px; /* Espaciado adicional */
+				    }
+				
+				    .image.avatar img {
+				        width: 100px; /* Tamaño más pequeño en móviles */
+				        height: 100px;
+				        display: block; /* Asegura que la imagen no tenga márgenes inesperados */
+				        margin: 0 auto; /* Centra la imagen dentro del contenedor */
+				    }
+				}	
 /* List */
 
 	ol {
