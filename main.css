@@ -2151,15 +2151,15 @@ input, select, textarea {
 			@media (max-width: 600px) {
     .image.avatar {
         display: flex;
-        justify-content: center;
-        align-items: center;
+        justify-content: right;
+        align-items: right;
         flex-direction: column;
         margin-top: 20px; /* Espaciado adicional */
     }
 
     .image.avatar img {
-        width: 80px; /* Tamaño más pequeño en móviles */
-        height: 80px;
+        width: 150px; /* Tamaño más pequeño en móviles */
+        height: 150px;
     }
 }
 
