@@ -2151,8 +2151,8 @@ input, select, textarea {
 			@media (max-width: 600px) {
     .image.avatar {
         display: flex;
-        justify-content: left;
-        align-items: center;
+        justify-content: center;
+        align-items: right;
         flex-direction: column;
         margin-top: 20px; /* Espaciado adicional */
     }
