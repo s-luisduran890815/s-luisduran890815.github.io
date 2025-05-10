@@ -1,0 +1,71 @@
+.fa-user-circle {
+    font-size: 30px !important;
+}
+
+.fa-line-chart{
+    font-size: 20px !important;
+
+}
+
+.fa-cogs{
+    font-size: 20px !important;
+}
+.fa-desktop{
+    font-size: 20px !important;
+}
+
+.w3-blue {
+    background-color: #0077b6 !important;
+}
+.w3-text-blue {
+    color: #0077b6 !important;
+}
+
+.w3-container.w3-blue {
+    background-color: #0077b6 !important;
+}
+
+.w3-row-padding {
+    display: flex;
+    align-items: stretch; /* Hace que ambas columnas tengan la misma altura */
+}
+.w3-third {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Ajuste general para mantener el diseño en escritorio */
+.w3-content {
+    max-width: 1400px;
+}
+
+/* Adaptaciones para versión móvil */
+@media (max-width: 768px) {
+    .w3-content {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .w3-third {
+        width: 100%;
+    }
+
+    .w3-twothird {
+        width: 100%;
+    }
+
+    .w3-display-container img {
+        max-width: 150px; /* Ajusta el tamaño de la imagen */
+        display: block;
+        margin: auto;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    h2 {
+        text-align: center;
+    }
+}
