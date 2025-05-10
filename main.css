@@ -40,32 +40,21 @@
     max-width: 1400px;
 }
 
-/* Adaptaciones para versión móvil */
-@media (max-width: 768px) {
-    .w3-content {
-        max-width: 100%;
-        padding: 10px;
+@media screen and (max-width: 490px) {
+    .w3-row {
+        flex-direction: column;
     }
 
-    .w3-third {
-        width: 100%;
-    }
-
-    .w3-twothird {
+    .w3-third, .w3-twothird {
         width: 100%;
     }
 
     .w3-display-container img {
-        max-width: 150px; /* Ajusta el tamaño de la imagen */
+        max-width: 120px;
         display: block;
         margin: auto;
     }
-
-    p {
-        font-size: 16px;
-    }
-
-    h2 {
+    .w3-container {
         text-align: center;
     }
 }
